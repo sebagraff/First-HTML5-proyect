@@ -1,0 +1,11 @@
+
+input{
+    outline: none;
+    border: none;
+    margin: 10px 0;
+}
+
+input[type="text"]{
+    outline: 1px;
+    border-bottom:1px solid tomato;
+}

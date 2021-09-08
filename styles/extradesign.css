@@ -1,0 +1,230 @@
+/* Normalicer */
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  padding: 2vh;
+}
+
+/*links*/
+a {
+  font-size: 16px;
+  color: rgb(177, 137, 38);
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  height: 25vh;
+  padding: 0px 5vw;
+  background-image: url("/assets/design1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* Title */
+h1 {
+  color: yellow;
+  text-shadow: 0px 0px 10px black;
+  border-color: black;
+}
+div.maintitle {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation buttons */
+
+.navbuttons {
+  font-size: 16px;
+  color: rgb(177, 137, 38);
+}
+
+.navbuttons li {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(10, 63, 107);
+  border: goldenrod;
+  border-radius: 0.5em;
+}
+
+.navbuttons li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navbuttons li a:hover {
+  color: rgb(243, 227, 0);
+}
+
+/* Blackbar Subtitle */
+div.bar {
+  width: 100vw;
+  background-color: black;
+  color: goldenrod;
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  padding: 1;
+}
+
+div.bar h2 {
+  width: 80%;
+}
+/*bar logo*/
+img {
+  width: 7vw;
+  margin-left: 1vw;
+  padding-left: 1vw;
+}
+
+/*mains margin*/
+main {
+  padding: 2em;
+}
+
+/*game_info sub*/
+
+.asterisk {
+  font-style: italic;
+}
+
+/*game_info table*/
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0 0.5em;
+  color: rgb(139, 139, 55);
+}
+
+td {
+  text-align: center;
+}
+
+thead {
+  background-color: rgba(134, 136, 129, 0.548);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(70, 70, 65, 0.849);
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: black;
+}
+
+/*game_info footerinfo*/
+
+footer {
+  padding: 0 10px 0 0;
+}
+
+.footerinfo {
+  color: rgb(17, 17, 17);
+  font-weight: bold;
+}
+
+h4 {
+  color: royalblue;
+}
+
+.footercontact {
+  display: flex;
+  padding: 0 0px 10 0px;
+}
+
+/*rules.html*/
+
+.rulestitle {
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.subitem {
+  list-style-type: lower-alpha;
+  margin-left: 1em;
+}
+
+.coach {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+/*registration.html*/
+
+.regwrapper {
+  background-color: rgb(238, 238, 238);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.regwrapper > div {
+}
+
+label {
+  width: 80%;
+}
+
+input {
+  outline: none;
+}
+
+input[type="text"] {
+  border-bottom: 1px solid black !important;
+  border: none;
+  background-color: rgb(238, 238, 238);
+}
+
+input[type="radio"],
+[type="checkbox"] {
+  cursor: pointer;
+}
+
+select {
+  text-align-last: center;
+}
+
+form h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 1vh;
+}
+
+div.fpnamelast {
+  width: 100%;
+}
+div.firsformblock > * {
+  margin-bottom: 10px;
+}
+
+div.street {
+  width: 100%;
+}
+
+form {
+  margin-left: 5vw;
+  margin-right: 10vw;
+  font-size: 25px;
+  width: 80vw;
+  height: 100vh;
+}

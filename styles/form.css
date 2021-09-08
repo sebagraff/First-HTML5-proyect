@@ -1,0 +1,39 @@
+:not(p){
+    margin:0%;
+    padding: 0%;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.regwrapper{
+    margin: 4vh;
+    background-color: gainsboro;
+    }
+
+.firstformblock{
+    
+    
+}
+
+.formnames{
+    background-color: bisque;
+    width: 100%;
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-between;
+}
+
+.formstreet{
+    background-color: wheat;
+    width: 100vw;
+    float: none;
+}
+
+#fstreet{
+    width: 80%;
+}
